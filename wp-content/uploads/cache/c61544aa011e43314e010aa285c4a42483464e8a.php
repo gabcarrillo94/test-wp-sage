@@ -1,10 +1,19 @@
-<div class="container-fluid mt-3">
-	<div class="row">
+<div class="container-fluid">
+	<div class="row mt-3 mb-3">
 		<div class="col-sm-12">
-			<h2 class="mt-2 mb-2">Send Message</h2>
+			<h2><?php echo ContactUsPage::title(); ?></h2>
+			<p>
+				<?php echo ContactUsPage::contact(); ?>
+
+			</p>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row mt-3">
+		<div class="col-sm-12">
+			<h4 class="mt-2 mb-2">Send Message</h4>
+		</div>
+	</div>
+	<div class="row mb-3">
 		<div class="col-sm-6 text-right">
 			<button id="contact-btn-count" type="button" class="btn btn-primary">Send</button>
 		</div>
